@@ -75,13 +75,22 @@
                                     <rect key="frame" x="16" y="277" width="343" height="30"/>
                                 </variation>
                             </textField>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGs-kB-of0">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGs-kB-of0">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="72" width="343" height="71"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3HG-l4-1ZN">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="151" width="255" height="42"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JqM-6p-5Br">
@@ -111,6 +120,7 @@
                                 <exclude reference="qJb-t9-pgx"/>
                                 <exclude reference="ogn-1y-Bzf"/>
                                 <exclude reference="eGs-kB-of0"/>
+                                <exclude reference="3HG-l4-1ZN"/>
                                 <exclude reference="JqM-6p-5Br"/>
                                 <exclude reference="ott-HI-Ezd"/>
                             </mask>
@@ -120,6 +130,7 @@
                                 <include reference="qJb-t9-pgx"/>
                                 <include reference="ogn-1y-Bzf"/>
                                 <include reference="eGs-kB-of0"/>
+                                <include reference="3HG-l4-1ZN"/>
                                 <include reference="JqM-6p-5Br"/>
                                 <include reference="ott-HI-Ezd"/>
                             </mask>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="qJb-t9-pgx" id="1eH-j5-vNV"/>
                         <outlet property="mailButton" destination="ott-HI-Ezd" id="cGu-FW-oak"/>
                         <outlet property="messageLabel" destination="eGs-kB-of0" id="yjA-nZ-H2U"/>
+                        <outlet property="nameLabel" destination="3HG-l4-1ZN" id="jgd-AF-tkJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
